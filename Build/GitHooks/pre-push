@@ -20,9 +20,9 @@ do
       range="$remote_sha..$local_sha"
     fi
 
-    if [[ $lint -eq 1 ]]; then
+    #if [[ $lint -eq 1 ]]; then
       yarn lint
-    fi
+    #fi
   fi
 done
 
